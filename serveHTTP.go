@@ -31,7 +31,7 @@ func omikujiHandler(w http.ResponseWriter, r *http.Request) {
 
 func rootHandler(w http.ResponseWriter, r *http.Request) {
 	// "/"
-	fmt.Fprintf(w, "<h1>omikuji</h1>")
+	fmt.Fprintf(w, "omikuji")
 }
 
 func main() {
